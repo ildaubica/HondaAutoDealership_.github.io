@@ -1,0 +1,396 @@
+@charset "utf-8";
+
+/*
+   Honda Auto Dealership
+   Author: Ildar Beisenbayev
+   Date: April 2, 2023  
+   Filename: MainPage.css
+
+*/
+
+
+/* Video styles*/
+#Logo-video {
+  	width: 100%;
+  	right: 0;
+  	bottom: 0;
+  	min-width: 100%;
+  	min-height: 100%;
+  	position: relative;
+}
+
+/* content at the video */
+.content {
+  	position: absolute;
+  	top: 0px;
+  	background: rgba(0, 0, 0, 0.5);
+  	color: #f1f1f1;
+  	width: 100%;
+  	padding: 20px;
+}
+
+/* body styles */
+body{
+	margin-left: auto;
+	margin-right: auto;
+	min-height:310%;
+	background-color: black;
+}
+
+/* Main styles */
+main {
+	background-color: white;
+}
+
+.main p {
+	background-image: url(photo4_2.png);
+	background-size: cover;
+	height: 900px;
+	display: block;
+}
+
+/* navigational list styles */
+header {
+  	position: relative;
+}
+
+.nav ul {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #B82214;
+}
+
+.nav li {
+  	float: left;
+}
+
+.nav li a {
+  	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 20px;
+  	margin-top: 10px;
+}
+
+/* Change color to black on hover */
+.nav li a:hover {
+  	background-color: #111;
+}
+
+.nav li img {
+	width:75px;
+	height: 75px;
+	border-radius: 50px;
+}
+
+/* paragraph styles */
+p{
+  	font-family: "Times New Roman", Times, serif;
+  	font-size: 2em;
+  	text-align: center;
+  	line-height: 100%;
+  	margin-bottom: 20px;
+  	color: white;
+}
+
+article {
+	text-align: center;
+	margin-bottom: 100px;
+	font-size: 2em;
+	font-family: cursive;
+}
+
+/* deals styles */
+.deals {
+	background-color: white;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.cont p {
+	color: black;
+}
+
+.cont {
+	width: 500px;
+	margin:20px;
+}
+
+.cont img {
+	display: block;
+	width: 100%;
+	height: 200px;
+}
+
+.cont button{
+	margin-left: 200px;
+	margin-bottom: 30px;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+/*Customer Review styles */
+.container2 {
+  	width: 100%;
+  	text-align: center;
+  	margin-bottom: 50px;
+  	background-color: #141414;
+  	padding: 10px;
+}
+
+
+.container2 h2 {
+	color: white;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 2em;
+}
+
+.review {
+  	display: flex;
+  	flex-direction: row;
+}
+
+.review-img img {
+  	width: 150px;
+  	height: 150px;
+  	border-radius: 50%;
+  	border: 2px solid  #FFC933;
+  	margin-top: 20px;
+  	margin-bottom: 20px;
+  	object-position: center center;
+  	object-fit: cover;
+}
+
+.review-img p {
+  	font-size: 18px;
+ 	font-weight: bold;
+  	margin-top: 10px;
+  	color:white;
+}
+
+.rev {
+	width: 300px;
+	margin-left: 150px;
+	background-color: #4F627D;
+	margin-bottom: 100px;
+	border-radius: 25%;
+}
+
+
+.rev:nth-of-type(1) .star p:nth-of-type(5) {
+	color: white;
+}
+
+
+.name {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Stars review styles*/
+.star {
+  	font-size: 24px; 
+}
+
+.star p {
+	color: gold; 
+  	display: inline-block; 
+  	margin: 0; 
+}
+
+/* Form Layout Styles */
+section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+section h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+section form {
+  display: flex;
+  flex-direction: column;
+}
+
+section label {
+  margin: 5px;
+  font-weight: bold;
+}
+
+section input,
+select,
+textarea {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+section input:valid,
+select:valid,
+textarea:valid {
+  border: 1px solid green;
+}
+
+section input:invalid,
+select:invalid,
+textarea:invalid {
+  border: 1px solid red;
+}
+
+
+section input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+section input[type="submit"]:hover {
+  background-color: #388e3c;
+}
+
+
+/* Footer Styles */
+.footer{
+  	background-color: #4A4A82;
+  	padding: 70px 0;
+}
+
+.column{
+  	display: inline-block;
+  	width: 23%;
+  	padding: 0 15px;
+  	vertical-align: top;
+  	box-sizing: border-box;
+}
+
+.column h4{
+  	font-size: 18px;
+  	color: #ffffff;
+  	text-transform: capitalize;
+  	margin-bottom: 35px;
+  	font-weight: 500;
+  	position: relative;
+}
+
+.column h4::before{
+  	content: '';
+  	position: absolute;
+  	left:0;
+  	bottom: -10px;
+  	background-color: #e91e63;
+  	height: 2px;
+  	box-sizing: border-box;
+  	width: 50px;
+}
+
+.column ul{
+  	list-style: none;
+  	padding: 0;
+  	margin: 0;
+}
+
+.column ul li:not(:last-child){
+  	margin-bottom: 10px;
+}
+
+.column ul li a{
+  	font-size: 16px;
+  	text-transform: capitalize;
+  	color: #ffffff;
+  	text-decoration: none;
+  	font-weight: 300;
+  	color: #bbbbbb;
+  	display: block;
+  	transition: all 0.3s ease;
+}
+
+.column ul li a:hover{
+  	color: #ffffff;
+  	padding-left: 8px;
+}
+
+.social-media{
+  	margin-top: 15px;
+}
+
+.social-media img{
+  	display: inline-block;
+  	height: 40px;
+  	width: 40px;
+  	background-color: rgba(255,255,255,0.2);
+  	margin:0 10px 10px 0;
+  	text-align: center;
+  	line-height: 40px;
+  	border-radius: 50%;
+  	color: #ffffff;
+  	transition: all 0.5s ease;
+}
+
+.social-media a:hover{
+  	color: #24262b;
+  	background-color: #ffffff;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 480px) {
+	.container2 {
+		width: 100%;
+		padding: 10px;
+	}
+	
+	.review {
+	flex-direction: column;	
+	}
+	
+	.rev {
+	margin-left: 50px;
+	}
+	
+	.main p {
+	background-position: center center;
+	}
+}
+/* Tablet Styles */
+@media only screen and (max-width: 769px){
+	
+	.container2 {
+		width: 100%;
+		padding: 10px;
+	}
+	
+	.review {
+	flex-direction: column;	
+	}
+	
+	.main p {
+	background-position: center center;
+	}
+}
