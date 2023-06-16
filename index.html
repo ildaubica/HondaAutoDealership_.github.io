@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--
+    Honda Auto Dealership
+    Author: Ildar Beisenbayev
+    Date: April 2, 2023  
+
+    Filename: MainPage.html
+   --> 
+   <title>Honda Auto Dealership</title>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <link href = "reset.css" rel="stylesheet"/>
+   <link href = "MainPage.css" rel="stylesheet"/>  
+   
+</head>
+  
+<body> 
+
+<!-- The video -->
+<video autoplay muted loop id="Logo-video">
+  <source src="honda_video2.mp4" type="video/mp4">
+</video>
+
+<!-- Video Description -->
+<div class="content">
+  <h1>Welcome to Honda</h1>
+  <p>"Experience the Power of Honda: Where Style Meets Reliability."</p>
+</div>  
+
+<!-- Nav List -->
+<header>
+	<div class="nav">	
+<nav>
+<ul>
+  <li><a href="MainPage.html">Home</a></li>
+            <li><a href="models.html">Models</a></li>
+            <li><a href="accessories.html">Accessories</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about_us.html">About us</a></li>
+  			<li style="float:right"><img src = "h.png" alt=""></li>
+</ul>
+</nav>
+	</div>
+</header>
+    
+<!-- main Description -->
+<div class= "main">
+<p>   Welcome to Honda,<br /><br /> where we are committed to providing you with high-quality vehicles that are built to last. <br />From our stylish and reliable cars to our powerful and versatile SUVs, we have something to suit every driver's needs.<br />
+<br />Our commitment to innovation is reflected in our cutting-edge technology, which is designed to enhance your driving experience and keep you connected on the road.<br /><br />
+      So why not explore our range of vehicles today and discover the Honda difference for yourself?
+</p>
+</div>
+<main>
+
+<!-- Exclusive Deals Section -->
+<div class="deals">
+
+<article>
+<strong> <br /> <br /> Exclusive Deals </strong>
+</article>
+
+<div class="container">
+	<div class="cont">
+	<img src="img1.png" alt="">
+	<p>  Honda Civic 2023</p>
+	<button> Show Model </button>
+	</div>
+	
+	<div class="cont">
+	<img src="img6.png" alt="">	
+	<p>  Honda Odyssey 2023</p>
+	<button> Show Model </button>
+	</div>
+
+	<div class="cont">
+	<img src="img3.png" alt="">
+	<p> Honda Ridgeline 2023 </p>
+	<button> Show Model </button>
+	</div>
+	
+	<div class="cont">
+	<img src="img5.png" alt="">
+	<p>  Honda Pilot 2023</p>
+	<button> Show Model </button>
+	</div>
+</div>
+</div>
+
+<!-- Customer Review Section -->
+<div class="container2">
+	<h2><br />Customer Review</h2>
+	<div class="review">
+		<div class="rev">
+		<div class="review-img">
+			<img src="icon.png" alt="">
+			<div class="name">
+		<p>Amrajot Singh</p>
+		</div>
+		<div class = "star">
+		<p>&#9733;</p>
+		<p>&#9733;</p>
+		<p>&#9733;</p>
+		<p>&#9733;</p>
+		<p>&#9733;</p>
+		</div>
+			<p>Great experience buying from Honda Auto Sales! </p>
+	    </div>
+	    </div>
+	    
+	    <div class="rev">
+	    <div class="review-img">
+		<img src="icon2.png" alt="">	
+		<div class="name">
+		<p>Jimmy Craig</p>
+		</div>
+		<div class = "star">
+		<p>&#9733;</p>
+		<p>&#9733;</p>
+		<p>&#9733;</p>
+		<p>&#9733;</p>
+		<p>&#9733;</p>
+		</div>
+		<p>  Couldn't be more satisfied with my experience.
+		     The staff were friendly, knowledgeable, and attentive to my needs.
+		</p>
+		</div>
+		</div>
+		
+		<div class="rev">
+		<div class="review-img">
+		<img src="icon3.png" alt="">
+		<div class="name">
+		<p>Jon Jones</p>
+		</div>	
+		<div class = "star">
+		<p>&#9733;</p>
+		<p>&#9733;</p>
+		<p>&#9733;</p>
+		<p>&#9733;</p>
+		<p>&#9733;</p>
+		</div>
+		<p>  
+		     Awesome Experience! 
+		     <br /> I got new Honda Civic R type, and it feels amazing! 
+		</p>
+		</div>
+	</div>
+	
+	</div>	
+</div>
+
+<!-- Forms Section--> 
+<section>
+      <h1>Car Showing Registration Form</h1>
+      <p>Required Item (*)</p>
+      <form id="survey" action="http://www.example.com/cg/register" method="post">
+       
+       <label for="title">Car Model</label>
+      <input name="title" id="titleBox" type="text" />
+      
+      <label for="firstName">FirstName*</label>
+      <input name="firstName" id="fnBox" type="text" list="titleList"/>
+      
+      <select name="titleList" id="titleBox">
+      <option>Mr. </option>
+      <option>Mrs. </option>
+      <option>Ms. </option>
+      </select>
+      
+       <label for="lastName">LastName*</label>
+      <input name="lastName" id="InBox" type="text" />
+      
+       <label for="address">Address*</label>
+      <input name="address" id="addBox" type="text" />
+      
+       <label for="email">E-mail*</label>
+      <input name="email" id="mailBox" type="email" />
+      
+       <label for="phoneNumber">Phone Number*</label>
+      <input name="phoneNumber" id="phoneBox" type="tel" placeholder="(nnn) nnn-nnnn"
+       pattern=" ^\d{10}$|^(\d3\s*)?\d{3}[\s-]?\d{4}$" />
+       
+      <p>      
+      <button type="submit">Continue</button>
+      </p>
+      </form>
+      
+   </section>
+   </main>
+    
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+        <div class="column">
+          <h4>Our Company</h4>
+          <ul>
+            <li><a href="about_us.html">about us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">Compliance and Ethics</a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <h4>Additional Info</h4>
+          <ul>
+            <li><a href="#">Booking Order</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Privacy and Confidentiality</a></li>
+            <li><a href="#">Get Chat Bot</a></li>
+            <li><a href="#">Payment Options</a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <h4>Company Family</h4>
+          <ul>
+            <li><a href="#">Acura</a></li>
+            <li><a href="#">Motorcycles</a></li>
+            <li><a href="#">Body Parts</a></li>
+            <li><a href="#">Engines</a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <h4>Subscribe to Us</h4>
+          <div class="social-media">
+            <a href="#"><img src="f1.png" alt=""></a>
+            <a href="#"><img src="f2.png" alt=""></a>
+            <a href="#"><img src="f3.png" alt=""></a>
+            <a href="#"><img src="f4.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+     </div>
+  </footer>
+
+</body>
+</html>
