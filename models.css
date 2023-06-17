@@ -1,0 +1,344 @@
+@charset "utf-8";
+
+/*
+   Honda Auto Dealership
+   Author: Ildar Beisenbayev
+   Date: April 2, 2023  
+   Filename: models.css
+
+*/
+
+/* navigational list styles */
+header {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+	background-color: red;
+}
+
+.nav ul a {
+	margin-top: 50px;
+}
+
+
+header h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+
+header h3 {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 325px;
+	margin-top: 50px; 
+}
+
+/* Change color to black on hover */
+.nav li a:hover {
+  	background-color: #111;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+    font-size: 1.6em;
+}
+
+nav a{
+	color: white;
+}
+
+.list {
+	margin-top: 20px; 
+	display: flex;
+}
+
+.list a {
+	margin-left: 40px;
+}
+
+/*Car Models styles */
+.model_container {
+  	padding: 50px 0;
+}
+
+.model_container h1 {
+  	text-align: center;
+  	font-size: 32px;
+  	margin-bottom: 30px;
+  	text-decoration: none;
+}
+
+.model_container h2 {
+  	text-align: center;
+  	font-size: 32px;
+  	margin-bottom: 30px;
+  	text-decoration: underline;
+ 	text-underline-offset: 20px;
+  	text-decoration-thickness: 2px;
+  	text-decoration-color: red;
+}
+
+.model_cont {
+  	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: center;
+}
+
+.model-item{
+  	margin: 20px;
+  	max-width: 300px;
+  	text-align: center;
+}
+
+.model-item img {
+  	max-width: 100%;
+  	height: auto;
+  	margin-bottom: 15px;
+}
+
+.model-item h3 {
+  	font-size: 24px;
+  	margin-bottom: 10px;
+}
+
+.model-item p {
+  	margin-bottom: 20px;
+  	font-size: 18px;
+}
+
+. h4::before{
+  	content: '';
+  	position: absolute;
+  	left:0;
+  	bottom: -10px;
+  	background-color: #e91e63;
+  	height: 2px;
+  	box-sizing: border-box;
+  	width: 50px;
+}
+
+/*button styles */
+.btn {
+  	display: inline-block;
+  	background-color: #f44336;
+  	color: #fff;
+  	padding: 10px 20px;
+  	text-decoration: none;
+  	font-size: 18px;
+  	border-radius: 5px;
+  	transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  	background-color: #4CAF50;
+}
+
+/*Future Model styles */
+.future h2{
+	font-size: 1.7em;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.future-container {
+  	background: url('f_1.png') no-repeat center center/cover;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	height: 75vh;
+  	position: relative;
+}
+
+.future-item {
+  	background-color: rgba(0, 0, 0, 0.5);
+  	color: #fff;
+  	padding: 15px;
+  	position: absolute;
+  	top: 60%;
+  	left: 20%;
+  	transform: translate(-50%, -50%);
+  	max-width: 500px;
+  	text-align: center;
+  	margin-right: 30px;
+}
+
+.future-item h3 {
+  	font-size: 36px;
+  	margin-bottom: 20px;
+}
+
+.future-item p {
+  	font-size: 18px;
+  	line-height: 1.5;
+  	margin-bottom: 30px;
+}
+
+/*Footer Styles */
+.footer{
+  	background-color: #4A4A82;
+  	padding: 70px 0;
+}
+
+.column{
+  	display: inline-block;
+  	width: 23%;
+  	padding: 0 15px;
+  	vertical-align: top;
+  	box-sizing: border-box;
+}
+
+.column h4{
+  	font-size: 18px;
+  	color: #ffffff;
+  	text-transform: capitalize;
+  	margin-bottom: 35px;
+  	font-weight: 500;
+  	position: relative;
+}
+
+.column h4::before{
+  	content: '';
+  	position: absolute;
+  	left:0;
+  	bottom: -10px;
+  	background-color: #e91e63;
+  	height: 2px;
+  	box-sizing: border-box;
+  	width: 50px;
+}
+
+.column ul{
+  	list-style: none;
+  	padding: 0;
+  	margin: 0;
+}
+
+.column ul li:not(:last-child){
+  	margin-bottom: 10px;
+}
+
+.column ul li a{
+  	font-size: 16px;
+  	text-transform: capitalize;
+  	color: #ffffff;
+  	text-decoration: none;
+  	font-weight: 300;
+  	color: #bbbbbb;
+  	display: block;
+  	transition: all 0.3s ease;
+}
+
+.column ul li a:hover{
+  	color: #ffffff;
+  	padding-left: 8px;
+}
+
+.social-media{
+  	margin-top: 15px;
+}
+
+.social-media a img{
+  	display: inline-block;
+  	height: 40px;
+  	width: 40px;
+  	background-color: rgba(255,255,255,0.2);
+  	margin:0 10px 10px 0;
+  	text-align: center;
+  	line-height: 40px;
+  	border-radius: 50%;
+  	color: #ffffff;
+  	transition: all 0.5s ease;
+}
+
+.social-media a:hover{
+  	color: #24262b;
+  	background-color: #ffffff;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 480px) {
+	.model_container h1{
+		line-height: 1.5;
+		}
+		
+		.nav ul {
+    	flex-direction: column;
+    	align-items: center;
+    	margin-top: 10px;
+  		}
+  		
+  		nav li {
+  		padding: 20px; 
+		}
+
+  		.list {
+    	flex-direction: column;
+    	align-items: center;
+    	margin-top: 10px;
+  		}
+  		
+  		.list a {
+    	margin: 10px 0;
+  		}
+  		
+  		li:last-child {
+    	float: none;
+    	text-align: center;
+    	margin-top: 20px;
+  		}
+
+		.future-container {
+		background-size: cover;
+		height: auto;
+		min-height: 100vh;
+		}
+
+		.future-item {
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		padding: 20px;
+		max-width: 90%;
+		}
+
+		.future-item h3 {
+		font-size: 28px;
+		margin-bottom: 15px;
+		}
+
+		.future-item p {
+		font-size: 16px;
+		margin-bottom: 20px;
+		padding-bottom: 300px;
+		}
+}
+
+/* Tablet Styles */
+@media only screen and (max-width: 769px) {
+  		.future-item {
+   		 position: relative;
+   		 top: auto;
+   		 left: auto;
+    	 transform: none;
+         margin: 0 15px;
+  		}
+  
+ 		 .future h2{
+  		line-height: 1.5;
+  		}
+  		
+  		.model_container h1{
+  		line-height: 1.5;
+  		}
+  		 
+}
